@@ -1,0 +1,124 @@
+.main-list{
+    max-width: 1000px;
+    margin: 20px auto 0;
+    padding: 0 20px;
+}
+
+.main-list article{
+    display: flex;
+    flex-direction: column;
+    background: #FFF;
+    border: 2px solid #DDD;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.main-list strong{
+    font-style: bold;
+    font-size: 20px;
+    padding: 10px;
+    align-self: start;
+    font-family: 'Times New Roman';
+}
+
+.main-list h3{
+    font-style: normal;
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.labelRadio{
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    max-width: 150px;
+    padding: 5px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.main-list input{
+    margin-left: 15px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+}
+
+.form__field{
+    margin-top: 50px;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px;
+    border-bottom: 1px solid gray;
+    outline: 0;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    background: transparent;
+    transition: border-color 0.2s;  
+}
+
+.form__label {
+    padding: 40px;
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: gray;
+  }
+
+.form__field:focus{
+    padding-bottom: 2px;  
+    font-weight: 250;
+    border-width: 1px;
+    border-image: linear-gradient(to right,#3464ca,#090930);
+    border-image-slice: 1;
+  }
+  
+.form__group {
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 60%;
+}
+.form__groupCheck {
+    margin-left: 40px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 80%;
+}
+
+.checkboxMain{
+    color: #302f2f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.checkboxMain :hover{
+    color:#7a7a7a;
+}
+
+.articleDif{
+    display: flex;
+    flex-direction: row;
+    background: #FFF;
+    border: 2px solid #DDD;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.divSingle{
+    margin-top: 47px;
+}
+
+.labelFlex{
+    display: flex;
+    flex-direction: row;
+}

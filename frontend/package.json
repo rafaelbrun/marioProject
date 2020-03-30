@@ -1,0 +1,43 @@
+{
+  "name": "reactmario",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.7",
+    "@material/react-floating-label": "^0.15.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "amd-loader": "0.0.8",
+    "clsx": "^1.1.0",
+    "hoist-non-react-statics": "^3.3.2",
+    "jss": "^10.1.1",
+    "muicss": "^0.10.1",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0",
+    "react-floating-label": "^1.0.0",
+    "react-scripts": "3.4.0",
+    "typeface-roboto": "0.0.75"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
